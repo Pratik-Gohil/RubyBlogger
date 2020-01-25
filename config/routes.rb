@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   resources :articles
 
-  # root 'welcome#index'
+  root to: 'articles#index'
 end
 
